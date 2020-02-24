@@ -26,6 +26,7 @@
     /* background-color: transparent; */
     height: 400px;
     background-size: cover;
+    background-color: transparent;
     
 }
 .row[type=text]{
@@ -39,4 +40,6 @@
 }
 .social{
     align-content: center;
+}
+.link
 }
