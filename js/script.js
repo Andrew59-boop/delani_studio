@@ -1,28 +1,6 @@
 
-    $(".portfolio1").hover(function(){
-      $(".1").fadeToggle()
-  });
-  $(".portfolio2").hover(function(){
-      $(".2").fadeToggle()
-  });
-  $(".portfolio3").hover(function(){
-      $(".3").fadeToggle()
-  });
-  $(".portfolio4").hover(function(){
-      $(".4").fadeToggle()
-  });
-  $(".portfolio5").hover(function(){
-      $(".5").fadeToggle()
-  });
-  $(".portfolio6").hover(function(){
-      $(".6").fadeToggle()
-  });
-  $(".portfolio7").hover(function(){
-      $(".7").fadeToggle()
-  });
-  $(".portfolio8").hover(function(){
-      $(".8").fadeToggle()
-  });
+    
+
   $("#img1").click(function(){
     $("#design").toggle()
   })
@@ -30,5 +8,5 @@
     $("#development").toggle()
   })
   $("#img3").click(function(){
-
-  }
+    $("product").toggle()
+  })
