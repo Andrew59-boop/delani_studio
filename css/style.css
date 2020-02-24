@@ -41,5 +41,27 @@
 .social{
     align-content: center;
 }
-.link
+.name{
+    width: 350px;
+    background-color: transparent;
+}
+.email{
+    width: 350px;
+    background-color: transparent;
+}
+.message{
+    width: 700px;
+    height: 200px;
+    background-color: transparent;
+    padding-bottom: 160px;
+}
+#design{
+    display: none;
+}
+#development{
+    display: none;
+}
+#product{
+    display: none;
+
 }

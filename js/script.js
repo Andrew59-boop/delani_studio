@@ -1,42 +1,34 @@
-$(document).ready(function(){
-    $(".A").hover(function(){
-      $(".Jimmy").slideToggle()
-    });
-    $(".B").hover(function(){
-      $(".yellow").slideToggle()
-    });
-    $(".C").hover(function(){
-      $(".Mig").slideToggle()
-    });
-    $(".D").hover(function(){
-      $(".BlackDark").slideToggle()
-    });
-    $(".E").hover(function(){
-      $(".Happy").fadeToggle()
-    });
-    $(".F").hover(function(){
-      $(".Settings").fadeToggle()
-    });
-    $(".G").hover(function(){
-      $(".Burned").fadeToggle()
-    });
-    $(".H").hover(function(){
-      $(".Giraffe").fadeToggle()
-    });
-    // $("").click(function(){
-      // $("#design,.design").fadeToggle()
-    });
-    // $(".pm,#pm").click(function(){
-      // $("#pm,.pm").fadeToggle()
-    });
-    // $(".dev,#dev").click(function(){
-      // $("#dev,.dev").fadeToggle()
-    });
-    // $("form.submit").click(function(){
-      var name=$(".name").val ()
-      v/ar email=$(".email").val()
-      var message=$(".class").val()
-      // alert("Hi"+name"your message has been recieved . Thank you")
-    });
-    });
-    
+
+    $(".portfolio1").hover(function(){
+      $(".1").fadeToggle()
+  });
+  $(".portfolio2").hover(function(){
+      $(".2").fadeToggle()
+  });
+  $(".portfolio3").hover(function(){
+      $(".3").fadeToggle()
+  });
+  $(".portfolio4").hover(function(){
+      $(".4").fadeToggle()
+  });
+  $(".portfolio5").hover(function(){
+      $(".5").fadeToggle()
+  });
+  $(".portfolio6").hover(function(){
+      $(".6").fadeToggle()
+  });
+  $(".portfolio7").hover(function(){
+      $(".7").fadeToggle()
+  });
+  $(".portfolio8").hover(function(){
+      $(".8").fadeToggle()
+  });
+  $("#img1").click(function(){
+    $("#design").toggle()
+  })
+  $("#img2").click(function(){
+    $("#development").toggle()
+  })
+  $("#img3").click(function(){
+
+  }

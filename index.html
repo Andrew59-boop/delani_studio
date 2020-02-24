@@ -88,26 +88,17 @@
             <strong><h6>WHAT WE DO</h6></strong>
             <br><br>
             <div class="row">
-                <div class="col-md-4 col-1"><img src="images/services_icons/design_icon.png" class="design"><br><h6>DESIGN</h6><p id="design">Our design practice offers a full range of servicesincluding brand stratergy, interacction and visual designand user experience testing.<br>
+                <div class="col-md-4 col-1"><img id="img1" src="images/services_icons/design_icon.png" class="design"><br><h6>DESIGN</h6><p id="design">Our design practice offers a full range of servicesincluding brand stratergy, interacction and visual designand user experience testing.<br>
                         Throughout your project, our designs create andimplement visual designs and workflows, solicit userfeedback and work with you to make sure what gets built is what is 
                             needed.</P>
                 </div>
-                <div class="col-md-4"><img src="images/services_icons/dev_icon.png" class="design"><br><h7>DEVELOPMENT</h7><br><P>All engineers are fluent in the latest enterprise, mobileand web development technologies.
+                <div class="col-md-4"><img id="img2" src="images/services_icons/dev_icon.png" class="development"><br><h7>DEVELOPMENT</h7><br><P id="development">All engineers are fluent in the latest enterprise, mobileand web development technologies.
                           <br>
                           They collaborate with your team to write, and improve code on daily basis, using proven practices such test-driven development and pair progaramming.</P>
                 </div>
-                <div class="col-md-4"><img src="images/services_icons/product_icon.png" class="product">
-                    <br>
-                    <h8>PRODUCT MANAGEMENT</h8>
-                    <br>
-                    <p>Planning and development is interactive. Because we are 
-                     constantly coding and testing, the products we build are 
-                                     are ready to go live.
+                <div class="col-md-4"><img id="img3" src="images/services_icons/product_icon.png" class="product"><br><h8>PRODUCT MANAGEMENT</h8><br><p id="product">Planning and development is interactive. Because we are constantly coding and testing, the products we build are are ready to go live.
                                      <br>
-                       This iterative process allows for changes as business
-                                      requirments evolve.
-
-                    </p>
+                       This iterative process allows for changes as business requirments evolve.</p>
                 </div>
             </div>
             <br>
@@ -140,15 +131,17 @@
         <form class="submit" action="index.html" method="post">
             <div class="row">
                 <div class="col-md-6 col-1">
-                    <input type="text" id="Name" value="Name..">
+                    <input type="text" placeholder="Name..." class="name" name="Fname" required>
                 </div>
                 <div class="col-md-6 col-1">
-                    <input type="text" id="Email" value="Email..">
+                    <input type="text" placeholder="Email" class="email" name="Fname" required>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 col-1">
-                    <textarea name="message" style="width: 200px; height: 200px;">Your message here</textarea>
+                    <textarea name="message" placeholder="Message..." class="message" name="MESSAGE" required>Your message here</textarea>
+                    <br>
+                    <input type="submit">
                     </form>
             </div>
          </div>
@@ -158,7 +151,7 @@
     <br>
     <div class="media">
         <div class="social">
-            <a href=""><img src="images/social_icons/behance.png"></a>
+            <a href="https://www.twitter"><img src="images/social_icons/behance.png"></a>
             <a  href=""><img src="images/social_icons/dribble.png"></a>
             <a href=""><img src="images/social_icons/facebook.png"></a>
             <a href=""><img src="images/social_icons/flickr.png"></a>
