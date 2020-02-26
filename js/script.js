@@ -98,6 +98,11 @@
     });
   });
 
+  $("form").submit (function(event) {
+    var name=$("#name").val();
+    alert("Thank you" + name + "for getting back to us!");
+  });
+
 
 
 
