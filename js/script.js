@@ -110,14 +110,35 @@
 
 
   $("#img1").click(function(){
-    $("#design").toggle()
+    $("#img1").hide();
+    $("#design").toggle();
+    $("#design").show();
+  })
+  $("#design").click(function(){
+    $("#design").hide();
+    $("#img1").toggle();
+    $("#img1").show();
   })
   $("#img2").click(function(){
-    $("#development").toggle()
+    $("#img2").hide();
+    $("#development").toggle();
+    $("#development").show();
+  })
+  $("#development").click(function(){
+    $("#development").hide();
+    $("#img2").toggle();
+    $("#img2").show();
   })
   $("#img3").click(function(){
-    $("#product").toggle()
+    $("#img3").hide();
+    $("#product").toggle();
+    $("#product").show();
   })
+  $("#product").click(function(){
+    $("#product").hide();
+    $("#img3").toggle();
+    $("#img3").show();
+  });
   $(".submit").click(function(){
       var name= $(".name").val()
       var Email= $(".Email").val()
